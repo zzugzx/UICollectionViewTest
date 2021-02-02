@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,9 +14,17 @@
 		2B34878E25C7F09A004770C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B34878D25C7F09A004770C2 /* Assets.xcassets */; };
 		2B34879125C7F09A004770C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B34878F25C7F09A004770C2 /* LaunchScreen.storyboard */; };
 		2B34879425C7F09A004770C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B34879325C7F09A004770C2 /* main.m */; };
+		2B34879D25C7F0C7004770C2 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B34879C25C7F0C7004770C2 /* FirstViewController.m */; };
+		2B3487A125C7F134004770C2 /* FirstLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3487A025C7F134004770C2 /* FirstLayout.m */; };
+		2B3487A525C82ACD004770C2 /* FirstCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3487A425C82ACC004770C2 /* FirstCollectionViewCell.m */; };
+		2B3487AD25C8346D004770C2 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3487AC25C8346D004770C2 /* SecondViewController.m */; };
+		2BE4A6D325C9009D00D454BE /* SecondLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE4A6D225C9009D00D454BE /* SecondLayout.m */; };
+		2BE4A6D725C904B300D454BE /* SecondCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE4A6D625C904B300D454BE /* SecondCollectionViewCell.m */; };
+		DC3DD5B1A733CA7AA6724D94 /* Pods_UI3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C603E771A460DEA12EEE27F1 /* Pods_UI3.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		121AB4E5071BEC3C66B7696C /* Pods-UI3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UI3.release.xcconfig"; path = "Target Support Files/Pods-UI3/Pods-UI3.release.xcconfig"; sourceTree = "<group>"; };
 		2B34877E25C7F09A004770C2 /* UI3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UI3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B34878125C7F09A004770C2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2B34878225C7F09A004770C2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,6 +37,20 @@
 		2B34879025C7F09A004770C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B34879225C7F09A004770C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B34879325C7F09A004770C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2B34879B25C7F0C7004770C2 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		2B34879C25C7F0C7004770C2 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		2B34879F25C7F134004770C2 /* FirstLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstLayout.h; sourceTree = "<group>"; };
+		2B3487A025C7F134004770C2 /* FirstLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstLayout.m; sourceTree = "<group>"; };
+		2B3487A325C82ACC004770C2 /* FirstCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstCollectionViewCell.h; sourceTree = "<group>"; };
+		2B3487A425C82ACC004770C2 /* FirstCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstCollectionViewCell.m; sourceTree = "<group>"; };
+		2B3487AB25C8346D004770C2 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		2B3487AC25C8346D004770C2 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		2BE4A6D125C9009D00D454BE /* SecondLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondLayout.h; sourceTree = "<group>"; };
+		2BE4A6D225C9009D00D454BE /* SecondLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondLayout.m; sourceTree = "<group>"; };
+		2BE4A6D525C904B300D454BE /* SecondCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondCollectionViewCell.h; sourceTree = "<group>"; };
+		2BE4A6D625C904B300D454BE /* SecondCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondCollectionViewCell.m; sourceTree = "<group>"; };
+		5ADFCC35BF6B184A49E68775 /* Pods-UI3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UI3.debug.xcconfig"; path = "Target Support Files/Pods-UI3/Pods-UI3.debug.xcconfig"; sourceTree = "<group>"; };
+		C603E771A460DEA12EEE27F1 /* Pods_UI3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UI3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC3DD5B1A733CA7AA6724D94 /* Pods_UI3.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +70,8 @@
 			children = (
 				2B34878025C7F09A004770C2 /* UI3 */,
 				2B34877F25C7F09A004770C2 /* Products */,
+				7D84A8146D5B116A77C2F031 /* Pods */,
+				61D9852C071E0BA4A8AED12A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +92,18 @@
 				2B34878525C7F09A004770C2 /* SceneDelegate.m */,
 				2B34878725C7F09A004770C2 /* ViewController.h */,
 				2B34878825C7F09A004770C2 /* ViewController.m */,
+				2B34879B25C7F0C7004770C2 /* FirstViewController.h */,
+				2B34879C25C7F0C7004770C2 /* FirstViewController.m */,
+				2B3487A325C82ACC004770C2 /* FirstCollectionViewCell.h */,
+				2B3487A425C82ACC004770C2 /* FirstCollectionViewCell.m */,
+				2B34879F25C7F134004770C2 /* FirstLayout.h */,
+				2B3487A025C7F134004770C2 /* FirstLayout.m */,
+				2BE4A6D125C9009D00D454BE /* SecondLayout.h */,
+				2BE4A6D225C9009D00D454BE /* SecondLayout.m */,
+				2B3487AB25C8346D004770C2 /* SecondViewController.h */,
+				2B3487AC25C8346D004770C2 /* SecondViewController.m */,
+				2BE4A6D525C904B300D454BE /* SecondCollectionViewCell.h */,
+				2BE4A6D625C904B300D454BE /* SecondCollectionViewCell.m */,
 				2B34878A25C7F09A004770C2 /* Main.storyboard */,
 				2B34878D25C7F09A004770C2 /* Assets.xcassets */,
 				2B34878F25C7F09A004770C2 /* LaunchScreen.storyboard */,
@@ -76,6 +113,23 @@
 			path = UI3;
 			sourceTree = "<group>";
 		};
+		61D9852C071E0BA4A8AED12A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C603E771A460DEA12EEE27F1 /* Pods_UI3.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D84A8146D5B116A77C2F031 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5ADFCC35BF6B184A49E68775 /* Pods-UI3.debug.xcconfig */,
+				121AB4E5071BEC3C66B7696C /* Pods-UI3.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -83,9 +137,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2B34879725C7F09A004770C2 /* Build configuration list for PBXNativeTarget "UI3" */;
 			buildPhases = (
+				1C9DBEA6444C1BC3993C1D4B /* [CP] Check Pods Manifest.lock */,
 				2B34877A25C7F09A004770C2 /* Sources */,
 				2B34877B25C7F09A004770C2 /* Frameworks */,
 				2B34877C25C7F09A004770C2 /* Resources */,
+				834A33522736843BC16E3759 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -140,13 +196,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1C9DBEA6444C1BC3993C1D4B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UI3-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		834A33522736843BC16E3759 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UI3/Pods-UI3-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UI3/Pods-UI3-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UI3/Pods-UI3-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2B34877A25C7F09A004770C2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BE4A6D725C904B300D454BE /* SecondCollectionViewCell.m in Sources */,
+				2B3487A125C7F134004770C2 /* FirstLayout.m in Sources */,
+				2BE4A6D325C9009D00D454BE /* SecondLayout.m in Sources */,
 				2B34878925C7F09A004770C2 /* ViewController.m in Sources */,
+				2B3487A525C82ACD004770C2 /* FirstCollectionViewCell.m in Sources */,
 				2B34878325C7F09A004770C2 /* AppDelegate.m in Sources */,
+				2B3487AD25C8346D004770C2 /* SecondViewController.m in Sources */,
+				2B34879D25C7F0C7004770C2 /* FirstViewController.m in Sources */,
 				2B34879425C7F09A004770C2 /* main.m in Sources */,
 				2B34878625C7F09A004770C2 /* SceneDelegate.m in Sources */,
 			);
@@ -288,10 +392,12 @@
 		};
 		2B34879825C7F09A004770C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5ADFCC35BF6B184A49E68775 /* Pods-UI3.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DK9C899M7Q;
 				INFOPLIST_FILE = UI3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -305,10 +411,12 @@
 		};
 		2B34879925C7F09A004770C2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 121AB4E5071BEC3C66B7696C /* Pods-UI3.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DK9C899M7Q;
 				INFOPLIST_FILE = UI3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
