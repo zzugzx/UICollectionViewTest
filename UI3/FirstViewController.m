@@ -8,6 +8,7 @@
 #import "FirstViewController.h"
 #import "FirstLayout.h"
 #import "FirstCollectionViewCell.h"
+#import "ThirdLayout.h"
 #import <Masonry/Masonry.h>
 
 @interface FirstViewController ()<UICollectionViewDelegate, UICollectionViewDataSource>
@@ -63,4 +64,6 @@
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
     [self.navigationController popViewControllerAnimated:YES];
 }
+
+
 @end

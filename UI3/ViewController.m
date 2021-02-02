@@ -8,6 +8,7 @@
 #import "ViewController.h"
 #import "FirstViewController.h"
 #import "SecondViewController.h"
+#import "ThirdViewController.h"
 #import <Masonry/Masonry.h>
 
 
@@ -15,6 +16,7 @@
 
 @property (nonatomic, strong) UIButton *lineButton;
 @property (nonatomic, strong) UIButton *circleButton;
+@property (nonatomic, strong) UIButton *waterflowButton;
 
 @end
 
@@ -47,6 +49,16 @@
     return _circleButton;
 }
 
+- (UIButton *)waterflowButton {
+    if (!_waterflowButton) {
+        _waterflowButton = [UIButton buttonWithType:UIButtonTypeSystem];
+        [_waterflowButton setBackgroundColor:[UIColor blueColor]];
+        [_waterflowButton setTitle:@"瀑布流布局" forState:UIControlStateNormal];
+        [_waterflowButton addTarget:self action:@selector(waterflowLayout:) forControlEvents:UIControlEventTouchUpInside];
+    }
+    return _waterflowButton;
+}
+
 - (IBAction)lineLayout:(id)sender {
     FirstViewController *nextview = [[FirstViewController alloc] init];
     [self.navigationController pushViewController:nextview animated:YES];
@@ -57,9 +69,15 @@
     [self.navigationController pushViewController:nextview animated:YES];
 }
 
+- (IBAction)waterflowLayout:(id)sender {
+    ThirdViewController *nextview = [[ThirdViewController alloc] init];
+    [self.navigationController pushViewController:nextview animated:YES];
+}
+
 - (void)initView {
     [self.view addSubview:self.lineButton];
     [self.view addSubview:self.circleButton];
+    [self.view addSubview:self.waterflowButton];
     
     [self.lineButton mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.mas_equalTo(self.view).offset(200);
@@ -70,6 +88,11 @@
     [self.circleButton mas_makeConstraints:^(MASConstraintMaker *make) {
         make.left.right.mas_equalTo(self.lineButton);
         make.top.mas_equalTo(self.lineButton.mas_bottom).offset(100);
+        make.height.mas_equalTo(50);
+    }];
+    [self.waterflowButton mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.right.mas_equalTo(self.circleButton);
+        make.top.mas_equalTo(self.circleButton.mas_bottom).offset(100);
         make.height.mas_equalTo(50);
     }];
     

@@ -20,6 +20,9 @@
 		2B3487AD25C8346D004770C2 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3487AC25C8346D004770C2 /* SecondViewController.m */; };
 		2BE4A6D325C9009D00D454BE /* SecondLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE4A6D225C9009D00D454BE /* SecondLayout.m */; };
 		2BE4A6D725C904B300D454BE /* SecondCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE4A6D625C904B300D454BE /* SecondCollectionViewCell.m */; };
+		2BE4A6DB25C937D800D454BE /* ThirdLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE4A6DA25C937D800D454BE /* ThirdLayout.m */; };
+		2BE4A6DF25C942BE00D454BE /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE4A6DE25C942BE00D454BE /* ThirdViewController.m */; };
+		2BE4A6E325C942ED00D454BE /* ThirdCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE4A6E225C942ED00D454BE /* ThirdCollectionViewCell.m */; };
 		DC3DD5B1A733CA7AA6724D94 /* Pods_UI3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C603E771A460DEA12EEE27F1 /* Pods_UI3.framework */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +52,12 @@
 		2BE4A6D225C9009D00D454BE /* SecondLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondLayout.m; sourceTree = "<group>"; };
 		2BE4A6D525C904B300D454BE /* SecondCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondCollectionViewCell.h; sourceTree = "<group>"; };
 		2BE4A6D625C904B300D454BE /* SecondCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondCollectionViewCell.m; sourceTree = "<group>"; };
+		2BE4A6D925C937D800D454BE /* ThirdLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdLayout.h; sourceTree = "<group>"; };
+		2BE4A6DA25C937D800D454BE /* ThirdLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdLayout.m; sourceTree = "<group>"; };
+		2BE4A6DD25C942BE00D454BE /* ThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		2BE4A6DE25C942BE00D454BE /* ThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		2BE4A6E125C942ED00D454BE /* ThirdCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdCollectionViewCell.h; sourceTree = "<group>"; };
+		2BE4A6E225C942ED00D454BE /* ThirdCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdCollectionViewCell.m; sourceTree = "<group>"; };
 		5ADFCC35BF6B184A49E68775 /* Pods-UI3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UI3.debug.xcconfig"; path = "Target Support Files/Pods-UI3/Pods-UI3.debug.xcconfig"; sourceTree = "<group>"; };
 		C603E771A460DEA12EEE27F1 /* Pods_UI3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UI3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -92,18 +101,24 @@
 				2B34878525C7F09A004770C2 /* SceneDelegate.m */,
 				2B34878725C7F09A004770C2 /* ViewController.h */,
 				2B34878825C7F09A004770C2 /* ViewController.m */,
+				2B34879F25C7F134004770C2 /* FirstLayout.h */,
+				2B3487A025C7F134004770C2 /* FirstLayout.m */,
 				2B34879B25C7F0C7004770C2 /* FirstViewController.h */,
 				2B34879C25C7F0C7004770C2 /* FirstViewController.m */,
 				2B3487A325C82ACC004770C2 /* FirstCollectionViewCell.h */,
 				2B3487A425C82ACC004770C2 /* FirstCollectionViewCell.m */,
-				2B34879F25C7F134004770C2 /* FirstLayout.h */,
-				2B3487A025C7F134004770C2 /* FirstLayout.m */,
 				2BE4A6D125C9009D00D454BE /* SecondLayout.h */,
 				2BE4A6D225C9009D00D454BE /* SecondLayout.m */,
 				2B3487AB25C8346D004770C2 /* SecondViewController.h */,
 				2B3487AC25C8346D004770C2 /* SecondViewController.m */,
 				2BE4A6D525C904B300D454BE /* SecondCollectionViewCell.h */,
 				2BE4A6D625C904B300D454BE /* SecondCollectionViewCell.m */,
+				2BE4A6D925C937D800D454BE /* ThirdLayout.h */,
+				2BE4A6DA25C937D800D454BE /* ThirdLayout.m */,
+				2BE4A6DD25C942BE00D454BE /* ThirdViewController.h */,
+				2BE4A6DE25C942BE00D454BE /* ThirdViewController.m */,
+				2BE4A6E125C942ED00D454BE /* ThirdCollectionViewCell.h */,
+				2BE4A6E225C942ED00D454BE /* ThirdCollectionViewCell.m */,
 				2B34878A25C7F09A004770C2 /* Main.storyboard */,
 				2B34878D25C7F09A004770C2 /* Assets.xcassets */,
 				2B34878F25C7F09A004770C2 /* LaunchScreen.storyboard */,
@@ -244,13 +259,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BE4A6D725C904B300D454BE /* SecondCollectionViewCell.m in Sources */,
+				2BE4A6E325C942ED00D454BE /* ThirdCollectionViewCell.m in Sources */,
 				2B3487A125C7F134004770C2 /* FirstLayout.m in Sources */,
+				2BE4A6DF25C942BE00D454BE /* ThirdViewController.m in Sources */,
 				2BE4A6D325C9009D00D454BE /* SecondLayout.m in Sources */,
 				2B34878925C7F09A004770C2 /* ViewController.m in Sources */,
 				2B3487A525C82ACD004770C2 /* FirstCollectionViewCell.m in Sources */,
 				2B34878325C7F09A004770C2 /* AppDelegate.m in Sources */,
 				2B3487AD25C8346D004770C2 /* SecondViewController.m in Sources */,
 				2B34879D25C7F0C7004770C2 /* FirstViewController.m in Sources */,
+				2BE4A6DB25C937D800D454BE /* ThirdLayout.m in Sources */,
 				2B34879425C7F09A004770C2 /* main.m in Sources */,
 				2B34878625C7F09A004770C2 /* SceneDelegate.m in Sources */,
 			);
